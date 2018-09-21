@@ -13,11 +13,12 @@ Notes:
 
 ##### clone the git repo
 ```
-$> git clone https://github.com/mikeybkats/node-project-template.git
+$> git clone https://github.com/mikeybkats/node-project-template.git [add destination folder here]
 ```
 
 ##### run npm install
 ```
+$> cd [into destination folder]
 $> npm install
 ```
 
