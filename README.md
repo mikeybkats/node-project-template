@@ -32,9 +32,9 @@ $> touch newApp.js
 ```
 gulp.task("default", () =>
     gulp.src([
-        "src/app.js",
+        "src/*.js",
         // ADD NEW FILE PATHS HERE
-        // src/newApp.js
+        // src/subFolder/newApp.js
     ])
         .pipe(babel({
             presets: ["env"]
