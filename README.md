@@ -4,10 +4,10 @@
 This is a node starter template, includes eslint, prettier, gulp and mocha. If you're just starting out I hope this makes the process easier for you.
 
 Notes:
-- The eslintrc is set up the way I like it. Please modify according to your own needs. 
-- Prettier automatically fixes syntax errors that are out of sync with the eslint file
-- Gulp is a task runner. Currently it's just set up to convert es6/2018 format javascript to node compatible javascript and output it to the dist folder
-- Mocha is set up to run tests located in the test folder. Run mocha by typing `$> npm test` into the terminal. Note there is an eslint file in the test folder, which is necessary for the linter to ignore mocha commands that normally appear undefined to the linter.
+- The [eslint](https://github.com/eslint/eslint) is set up the way I like it. Please modify according to your own needs. 
+- [Prettier](https://github.com/prettier/prettier) automatically fixes syntax errors that are out of sync with the eslint file
+- [Gulp](https://github.com/gulpjs/gulp) is a task runner – it helps you automate things. Currently it's just set up to convert es6/2018 format javascript to node compatible javascript and output it to the dist folder
+- [Mocha](https://github.com/mochajs/mocha) is at testing framework. It is set up to run tests located in the test folder. Run mocha by typing `$> npm test` into the terminal. Note there is an eslint file in the test folder, which is necessary for the linter to ignore mocha commands that normally appear undefined to the linter.
 
 ### Instructions:
 
