@@ -3,7 +3,7 @@
 
 This is a node starter template, includes eslint, prettier, gulp and mocha. 
 
-Instructions:
+### Instructions:
 
 ### copy the git repo
 ```
