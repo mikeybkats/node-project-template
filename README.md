@@ -69,3 +69,4 @@ $> npm test
 ```
 
 ##### modify the project settings to your liking
+Now you should have a simple Node Js template ready for your project. Happy Coding.
