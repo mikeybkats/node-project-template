@@ -1,15 +1,13 @@
 {
-  "name": "app",
+  "name": "nodeProjectTemplate",
   "version": "1.0.0",
   "description": "command line app",
   "main": "app.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
+  "author": "michael barakat",
+  "repository": "https://github.com/mikeybkats/node-project-template",
   "license": "ISC",
   "bin": {
-    "sum": "app.js"
+    "app": "app.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -21,5 +19,8 @@
     "gulp-babel": "^7.0.1",
     "mocha": "^5.2.0",
     "prettier": "^1.14.3"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
