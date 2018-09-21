@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-app = () => {
-    return 1;
+const app = (a, b) => {
+  return a + b
 }
 
-app();
+app()
