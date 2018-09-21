@@ -24,7 +24,7 @@ $> npm install
 ##### add your code to the src directory
 ```
 $> cd src
-$> touch newfile.js
+$> touch newApp.js
 ```
 
 ##### modify the gulpfile
@@ -33,7 +33,7 @@ gulp.task("default", () =>
     gulp.src([
         "src/app.js",
         // ADD NEW FILE PATHS HERE
-        // src/newfile.js
+        // src/newApp.js
     ])
         .pipe(babel({
             presets: ["env"]
@@ -53,7 +53,7 @@ $> gulp
 ##### run your program
 ```
 $> cd dist
-$> node newfile.js 
+$> node newApp.js 
 ```
 
 ##### modify the project settings to your liking
