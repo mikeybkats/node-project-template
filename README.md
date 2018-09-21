@@ -1,7 +1,7 @@
 # node-project-template
 ### set up your node project quickly
 
-This is a node starter template, includes eslint, prettier, gulp and mocha. If you're just starting out I hope this makes the process easier for you.
+This is a node starter template, includes eslint, prettier, gulp and mocha. If you're just starting out I hope this makes the process easier for you. This template allows you to write es2018 syntax with node. It's set up to watch your src directory and write to the dist directory. It uses gulp to watch and write to the folder automatically. Setting up like this takes a minute, maybe this template can save you some time?
 
 Notes:
 - The [eslint](https://github.com/eslint/eslint) is set up the way I like it. Please modify according to your own needs. 
@@ -45,10 +45,11 @@ gulp.task("default", () =>
 
 ##### run gulp
 ```
-$> gulp
-// [11:08:42] Using gulpfile ~/javascript/node-project-template/gulpfile.js
-// [11:08:42] Starting 'default'...
-// [11:08:42] Finished 'default' after 137 ms
+$> gulp watch
+[14:22:04] Using gulpfile ~/javascript/node-project-template/gulpfile.js
+[14:22:04] Starting 'watch'...
+[14:22:04] Finished 'watch' after 6.58 ms
+// this is setup to write tests and src js files to the dist folder
 ```
 
 ##### run your program
