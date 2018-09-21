@@ -5,19 +5,24 @@ This is a node starter template, includes eslint, prettier, gulp and mocha.
 
 ### Instructions:
 
-##### copy the git repo
+##### 1 - clone the git repo
 ```
 $> git clone https://github.com/mikeybkats/node-project-template.git
 ```
 
-##### add your code to the src directory
+##### 2 - add your code to the src directory
+```
+$> cd src
+$> touch newfile.js
+```
 
-##### modify the gulpfile
+##### 3 - modify the gulpfile
 ```
 gulp.task("default", () =>
     gulp.src([
         "src/app.js",
         // ADD NEW FILE PATHS HERE
+        // src/newfile.js
     ])
         .pipe(babel({
             presets: ["env"]
@@ -37,7 +42,7 @@ $> gulp
 ##### run your program
 ```
 $> cd dist
-$> node app.js 
+$> node newfile.js 
 ```
 
 ##### modify the project settings to your liking
