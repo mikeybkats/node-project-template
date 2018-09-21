@@ -21,6 +21,6 @@
     "prettier": "^1.14.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha dist/test "
   }
 }

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 
-app = function app() {
-    return 1;
+var app = function app(a, b) {
+  return a + b;
 };
 
 app();
