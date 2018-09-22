@@ -58,4 +58,26 @@ $> cd dist
 $> node newApp.js 
 ```
 
+##### run your tests
+```
+$> npm test
+// Mocha
+//    ✓ should run our tests using npm
+//
+//
+//  1 passing (4ms)
+```
+
 ##### modify the project settings to your liking
+Now you should have a simple Node Js template ready for your project. Happy Coding.
+
+### Project structure: 
+
+```
+>project-folder
+    >src
+    >test
+    >dist
+        >test
+```
+
